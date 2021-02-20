@@ -1,0 +1,55 @@
+body {
+  background-color: #222831;
+  color: #222831;
+}
+a: link {
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+.box {
+  width: 320px;
+  height: 600px;
+  background-color: #dddddd;
+  border-radius: 50px;
+  border: #ffffff 10px solid;
+  margin: 75px auto;
+  padding: 10px;
+}
+
+.notch1 {
+  background-color: #ffffff;
+  width: 160px;
+  height: 25px;
+  border-radius: 75px;
+  position: absolute;
+  top: 80px;
+  right: 915px;
+}
+.notch2 {
+  background-color: #ffffff;
+  width: 160px;
+  height: 25px;
+  border-radius: 75px;
+  position: absolute;
+  top: 80px;
+  right: 360px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid {
+  text-align: center;
+  padding-top: 20px;
+}
+.row {
+  padding: 10px;
+}
+
+.bigbox {
+  display: flex;
+}
